@@ -1,0 +1,38 @@
+*
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body
+{
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+background: rgb(3, 40, 250);
+}
+.elastic
+{
+position: relative;
+width: 400px;
+height: 400px;
+background: rgb(44, 248, 3);
+display: flex;
+justify-content: center;
+align-items: flex-end;
+}
+.elastic svg
+{
+position: absolute;
+width: 400px;
+height: 150px;
+}
+.elastic svg path
+{
+width: 400px;
+stroke: plum;
+stroke-width: 10;
+stroke-linecap: round ;
+ d: path("M 10 80 Q 190 80 390 80");
+}
